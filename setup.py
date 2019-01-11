@@ -25,6 +25,10 @@ setup(
     long_description = LONG_DESC,
     description="Python bindings for khiva",
     license="MPL 2.0",
+    install_requires=[
+        'numpy',
+        'pandas'
+    ],
     url="http://shapelets.io",
     packages=find_packages()
 )
